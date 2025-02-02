@@ -1,0 +1,1815 @@
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:67: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdk = 34
+        ~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:72: Warning: Attribute tooltipText is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:tooltipText="Thêm tài khoản"></ImageButton>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:72: Warning: Attribute tooltipText is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:tooltipText="Thêm câu hỏi"></ImageButton>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:72: Warning: Attribute tooltipText is only used in API level 26 and higher (current min is 24) [UnusedAttribute]
+        android:tooltipText="Thêm tài khoản"></ImageButton>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedAttribute":
+   This check finds attributes set in XML files that were introduced in a
+   version newer than the oldest version targeted by your application (with
+   the minSdkVersion attribute).
+
+   This is not an error; the application will simply ignore the attribute.
+   However, if the attribute is important to the appearance or functionality
+   of your application, you should consider finding an alternative way to
+   achieve the same result with only available attributes, and then you can
+   optionally create a copy of the layout in a layout-vNN folder which will be
+   used on API NN or higher where you can take advantage of the newer
+   attribute.
+
+   Note: This check does not only apply to attributes. For example, some tags
+   can be unused too, such as the new <tag> element in layouts introduced in
+   API 21.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:100: Warning: A newer version of androidx.appcompat:appcompat than 1.6.1 is available: 1.7.0 [GradleDependency]
+    implementation("androidx.appcompat:appcompat:1.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:101: Warning: A newer version of com.google.android.material:material than 1.10.0 is available: 1.12.0 [GradleDependency]
+    implementation("com.google.android.material:material:1.10.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:102: Warning: A newer version of androidx.constraintlayout:constraintlayout than 2.1.4 is available: 2.2.0 [GradleDependency]
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:103: Warning: A newer version of androidx.annotation:annotation than 1.6.0 is available: 1.9.1 [GradleDependency]
+    implementation("androidx.annotation:annotation:1.6.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:104: Warning: A newer version of androidx.lifecycle:lifecycle-livedata-ktx than 2.6.1 is available: 2.8.7 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:105: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-ktx than 2.6.1 is available: 2.8.7 [GradleDependency]
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:106: Warning: A newer version of androidx.core:core-ktx than 1.12.0 is available: 1.15.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.12.0") // Latest compatible version
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:110: Warning: A newer version of androidx.test.ext:junit than 1.1.5 is available: 1.2.1 [GradleDependency]
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build.gradle.kts:111: Warning: A newer version of androidx.test.espresso:espresso-core than 3.5.1 is available: 3.6.1 [GradleDependency]
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:39: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:43: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:47: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:51: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:64: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:71: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:75: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:79: Warning: Expecting android:screenOrientation="unspecified" or "fullSensor" for this activity so the user can use the application in any orientation and provide a great experience on Chrome OS devices [LockedOrientationActivity]
+            android:screenOrientation="portrait" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "LockedOrientationActivity":
+   The <activity> element should not be locked to any orientation so that
+   users can take advantage of the multi-window environments and larger
+   screens available on Android. To fix the issue, consider declaring the
+   corresponding activity element with `screenOrientation="unspecified"or
+   "fullSensor"` attribute.
+
+   https://developer.android.com/topic/arc/window-management
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:71: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:84: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:100: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:113: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:84: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp">
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:94: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+        android:textSize="20dp">
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:35: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+            android:textSize="22dp"></TextView>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:45: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+            android:textSize="22dp"></TextView>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:35: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+            android:textSize="22dp"></TextView>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:46: Warning: Should use "sp" instead of "dp" for text sizes [SpUsage]
+            android:textSize="22dp"></TextView>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SpUsage":
+   When setting text sizes, you should normally use sp, or "scale-independent
+   pixels". This is like the dp unit, but it is also scaled by the user's font
+   size preference. It is recommend you use this unit when specifying font
+   sizes, so they will be adjusted for both the screen density and the user's
+   preference.
+
+   There are cases where you might need to use dp; typically this happens when
+   the text is in a container with a specific dp-size. This will prevent the
+   text from spilling outside the container. Note however that this means that
+   the user's font size settings are not respected, so consider adjusting the
+   layout itself to be more flexible.
+
+   https://developer.android.com/training/multiscreen/screendensities.html
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:6: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE">
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:6: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:3: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:7: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\category_view.xml:4: Warning: Possible overdraw: Root element paints background #F4C374 with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#F4C374"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:5: Warning: Possible overdraw: Root element paints background #FFF5EE with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#FFF5EE"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:6: Warning: Possible overdraw: Root element paints background #F4C374 with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#F4C374"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:7: Warning: Possible overdraw: Root element paints background #F4C374 with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#F4C374"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:7: Warning: Possible overdraw: Root element paints background #F4C374 with a theme that also paints a background (inferred theme is @style/Theme.Thi_Trac_Nghiem) [Overdraw]
+    android:background="#F4C374"
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Overdraw":
+   If you set a background drawable on a root view, then you should use a
+   custom theme where the theme background is null. Otherwise, the theme
+   background will be painted first, only to have your custom background
+   completely cover it; this is called "overdraw".
+
+   NOTE: This detector relies on figuring out which layouts are associated
+   with which activities based on scanning the Java code, and it's currently
+   doing that using an inexact pattern matching algorithm. Therefore, it can
+   incorrectly conclude which activity the layout is associated with and then
+   wrongly complain that a background-theme is hidden.
+
+   If you want your custom background on multiple pages, then you should
+   consider making a custom theme with your custom background and just using
+   that theme instead of a root element background.
+
+   Of course it's possible that your custom drawable is translucent and you
+   want it to be mixed with the background. However, you will get better
+   performance if you pre-mix the background with your drawable and use that
+   resulting image or color as a custom theme background instead.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\about.png: Warning: The resource R.drawable.about appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\app.png: Warning: The resource R.drawable.app appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b1.png: Warning: The resource R.drawable.b1 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b2.png: Warning: The resource R.drawable.b2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b3.png: Warning: The resource R.drawable.b3 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\banner_11.jpg: Warning: The resource R.drawable.banner_11 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\bounce.xml:1: Warning: The resource R.drawable.bounce appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\cauhoi.png: Warning: The resource R.drawable.cauhoi appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\colors.xml:5: Warning: The resource R.color.CamTrang appears to be unused [UnusedResources]
+    <color name="CamTrang">#FFCC00</color>
+           ~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\colors.xml:6: Warning: The resource R.color.Green appears to be unused [UnusedResources]
+    <color name="Green">#76BB68</color>
+           ~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\colors.xml:7: Warning: The resource R.color.Blue appears to be unused [UnusedResources]
+    <color name="Blue">#2196F3</color>
+           ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\delete.png: Warning: The resource R.drawable.delete appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\dimens.xml:3: Warning: The resource R.dimen.activity_horizontal_margin appears to be unused [UnusedResources]
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\dimens.xml:4: Warning: The resource R.dimen.activity_vertical_margin appears to be unused [UnusedResources]
+    <dimen name="activity_vertical_margin">16dp</dimen>
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\edit.png: Warning: The resource R.drawable.edit appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\exit3.png: Warning: The resource R.drawable.exit3 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\guide2.png: Warning: The resource R.drawable.guide2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\history.png: Warning: The resource R.drawable.history appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\home.png: Warning: The resource R.drawable.home appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml:2: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ic_menu_camera.xml:1: Warning: The resource R.drawable.ic_menu_camera appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ic_menu_gallery.xml:1: Warning: The resource R.drawable.ic_menu_gallery appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ic_menu_slideshow.xml:1: Warning: The resource R.drawable.ic_menu_slideshow appears to be unused [UnusedResources]
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_1.png: Warning: The resource R.drawable.icon_1 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_2.png: Warning: The resource R.drawable.icon_2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_3.png: Warning: The resource R.drawable.icon_3 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_4.png: Warning: The resource R.drawable.icon_4 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_1.png: Warning: The resource R.drawable.img_1 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_12.png: Warning: The resource R.drawable.img_12 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_2.png: Warning: The resource R.drawable.img_2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_exam_clock.png: Warning: The resource R.drawable.img_exam_clock appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ketqua.png: Warning: The resource R.drawable.ketqua appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\maloi.png: Warning: The resource R.drawable.maloi appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\mute.png: Warning: The resource R.drawable.mute appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\raw\nhacnen.mp3: Warning: The resource R.raw.nhacnen appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\one.png: Warning: The resource R.drawable.one appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\parchment.png: Warning: The resource R.drawable.parchment appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\play.png: Warning: The resource R.drawable.play appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\play2.jpg: Warning: The resource R.drawable.play2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\radius.xml:3: Warning: The resource R.drawable.radius appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank.png: Warning: The resource R.drawable.rank appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank2.png: Warning: The resource R.drawable.rank2 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank3.png: Warning: The resource R.drawable.rank3 appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ready.png: Warning: The resource R.drawable.ready appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rotate.xml:1: Warning: The resource R.drawable.rotate appears to be unused [UnusedResources]
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\setbackgroupapp.png: Warning: The resource R.drawable.setbackgroupapp appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\side_nav_bar.xml:1: Warning: The resource R.drawable.side_nav_bar appears to be unused [UnusedResources]
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+^
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\sound.png: Warning: The resource R.drawable.sound appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:3: Warning: The resource R.string.login appears to be unused [UnusedResources]
+    <string name="login">Login</string>
+            ~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:4: Warning: The resource R.string.title_activity_login appears to be unused [UnusedResources]
+    <string name="title_activity_login">LoginActivity</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:5: Warning: The resource R.string.prompt_email appears to be unused [UnusedResources]
+    <string name="prompt_email">Email</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:6: Warning: The resource R.string.prompt_password appears to be unused [UnusedResources]
+    <string name="prompt_password">Password</string>
+            ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.action_sign_in appears to be unused [UnusedResources]
+    <string name="action_sign_in">Sign in or register</string>
+            ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:8: Warning: The resource R.string.action_sign_in_short appears to be unused [UnusedResources]
+    <string name="action_sign_in_short">Sign in</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:9: Warning: The resource R.string.welcome appears to be unused [UnusedResources]
+    <string name="welcome">"Welcome !"</string>
+            ~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.invalid_username appears to be unused [UnusedResources]
+    <string name="invalid_username">Not a valid username</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:11: Warning: The resource R.string.invalid_password appears to be unused [UnusedResources]
+    <string name="invalid_password">Password must be >5 characters</string>
+            ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\values\strings.xml:12: Warning: The resource R.string.login_failed appears to be unused [UnusedResources]
+    <string name="login_failed">"Login failed"</string>
+            ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\subject.png: Warning: The resource R.drawable.subject appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\top1st.png: Warning: The resource R.drawable.top1st appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\tracnghiem.png: Warning: The resource R.drawable.tracnghiem appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\user.png: Warning: The resource R.drawable.user appears to be unused [UnusedResources]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\welcome.png: Warning: The resource R.drawable.welcome appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml:2: Warning: The application adaptive icon is missing a monochrome tag [MonochromeLauncherIcon]
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+^
+
+   Explanation for issues of type "MonochromeLauncherIcon":
+   If android:roundIcon and android:icon are both in your manifest, you must
+   either remove the reference to android:roundIcon if it is not needed; or,
+   supply the monochrome icon in the drawable defined by the android:roundIcon
+   and android:icon attribute.
+
+   For example, if android:roundIcon and android:icon are both in the
+   manifest, a launcher might choose to use android:roundIcon over
+   android:icon to display the adaptive app icon. Therefore, your themed
+   application iconwill not show if your monochrome attribute is not also
+   specified in android:roundIcon.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\about.png: Warning: Found bitmap drawable res/drawable/about.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\add.png: Warning: Found bitmap drawable res/drawable/add.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\app.png: Warning: Found bitmap drawable res/drawable/app.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b1.png: Warning: Found bitmap drawable res/drawable/b1.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b2.png: Warning: Found bitmap drawable res/drawable/b2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b3.png: Warning: Found bitmap drawable res/drawable/b3.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\back.png: Warning: Found bitmap drawable res/drawable/back.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\banner_11.jpg: Warning: Found bitmap drawable res/drawable/banner_11.jpg in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\books.png: Warning: Found bitmap drawable res/drawable/books.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\cauhoi.png: Warning: Found bitmap drawable res/drawable/cauhoi.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\clear.png: Warning: Found bitmap drawable res/drawable/clear.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\clock.png: Warning: Found bitmap drawable res/drawable/clock.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\confirm.png: Warning: Found bitmap drawable res/drawable/confirm.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\congratulations.png: Warning: Found bitmap drawable res/drawable/congratulations.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\delete.png: Warning: Found bitmap drawable res/drawable/delete.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\edit.png: Warning: Found bitmap drawable res/drawable/edit.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\exit.png: Warning: Found bitmap drawable res/drawable/exit.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\exit3.png: Warning: Found bitmap drawable res/drawable/exit3.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\guide.png: Warning: Found bitmap drawable res/drawable/guide.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\guide2.png: Warning: Found bitmap drawable res/drawable/guide2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\history.png: Warning: Found bitmap drawable res/drawable/history.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\home.png: Warning: Found bitmap drawable res/drawable/home.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\home2.png: Warning: Found bitmap drawable res/drawable/home2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_1.png: Warning: Found bitmap drawable res/drawable/icon_1.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_2.png: Warning: Found bitmap drawable res/drawable/icon_2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_3.png: Warning: Found bitmap drawable res/drawable/icon_3.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\icon_4.png: Warning: Found bitmap drawable res/drawable/icon_4.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_1.png: Warning: Found bitmap drawable res/drawable/img_1.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_12.png: Warning: Found bitmap drawable res/drawable/img_12.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_2.png: Warning: Found bitmap drawable res/drawable/img_2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_8.png: Warning: Found bitmap drawable res/drawable/img_8.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\img_exam_clock.png: Warning: Found bitmap drawable res/drawable/img_exam_clock.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ketqua.png: Warning: Found bitmap drawable res/drawable/ketqua.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\maloi.png: Warning: Found bitmap drawable res/drawable/maloi.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\mute.png: Warning: Found bitmap drawable res/drawable/mute.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\one.png: Warning: Found bitmap drawable res/drawable/one.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\parchment.png: Warning: Found bitmap drawable res/drawable/parchment.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\play.png: Warning: Found bitmap drawable res/drawable/play.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\play2.jpg: Warning: Found bitmap drawable res/drawable/play2.jpg in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\play3.png: Warning: Found bitmap drawable res/drawable/play3.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank.png: Warning: Found bitmap drawable res/drawable/rank.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank2.png: Warning: Found bitmap drawable res/drawable/rank2.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank3.png: Warning: Found bitmap drawable res/drawable/rank3.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\re.png: Warning: Found bitmap drawable res/drawable/re.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ready.png: Warning: Found bitmap drawable res/drawable/ready.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\ready2.jpg: Warning: Found bitmap drawable res/drawable/ready2.jpg in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\reset.png: Warning: Found bitmap drawable res/drawable/reset.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\search.png: Warning: Found bitmap drawable res/drawable/search.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\setbackgroupapp.png: Warning: Found bitmap drawable res/drawable/setbackgroupapp.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\sound.png: Warning: Found bitmap drawable res/drawable/sound.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\subject.png: Warning: Found bitmap drawable res/drawable/subject.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\team.png: Warning: Found bitmap drawable res/drawable/team.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\top1st.png: Warning: Found bitmap drawable res/drawable/top1st.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\tracnghiem.png: Warning: Found bitmap drawable res/drawable/tracnghiem.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\user.png: Warning: Found bitmap drawable res/drawable/user.png in densityless folder [IconLocation]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\welcome.png: Warning: Found bitmap drawable res/drawable/welcome.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b1.png: Warning: Misleading file extension; named .png but the file format is webp [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b2.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\b3.png: Warning: Misleading file extension; named .png but the file format is webp [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\delete.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\edit.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank2.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\rank3.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\drawable\user.png: Warning: Misleading file extension; named .png but the file format is JPEG [IconExtension]
+
+   Explanation for issues of type "IconExtension":
+   Ensures that icons have the correct file extension (e.g. a .png file is
+   really in the PNG format and not for example a GIF file named .png).
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:31: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:39: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:48: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:58: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:69: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:79: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:72: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:19: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:31: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:40: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:50: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:60: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:71: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:81: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:81: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:20: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:7: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:17: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:7: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:19: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "TextFields":
+   Providing an inputType attribute on a text field improves usability because
+   depending on the data to be input, optimized keyboards can be shown to the
+   user (such as just digits and parentheses for a phone number). 
+
+   The lint detector also looks at the id of the view, and if the id offers a
+   hint of the purpose of the field (for example, the id contains the phrase
+   phone or email), then lint will also ensure that the inputType contains the
+   corresponding type attributes.
+
+   If you really want to keep the text field generic, you can suppress this
+   warning by setting inputType="text".
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:31: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:39: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:48: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:58: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:69: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:79: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:90: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:61: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:72: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:19: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:29: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:40: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:63: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:31: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:40: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:50: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:60: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:71: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:81: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:92: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:70: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:81: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:20: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:31: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:7: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:17: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:7: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:19: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:30: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:41: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:51: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:72: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:124: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:145: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:7: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:28: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:50: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:71: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:126: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:147: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:16: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:37: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:8: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:85: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageView
+     ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:63: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:63: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:63: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <ImageButton
+     ~~~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddCategoryActivity.kt:30: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddCategoryActivity.kt:30: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddQuestionActivity.kt:41: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddQuestionActivity.kt:41: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddUserActivity.kt:39: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AddUserActivity.kt:39: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AdminActivity.kt:27: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\AdminActivity.kt:27: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditCategoryActivity.kt:31: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditCategoryActivity.kt:31: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditQuestionActivity.kt:41: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditQuestionActivity.kt:41: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditUserActivity.kt:100: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.setText("Xin chào $user_name")
+                              ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\EditUserActivity.kt:100: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.setText("Xin chào $user_name")
+                               ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuCategoryActivity.kt:49: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuCategoryActivity.kt:49: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuQuestionActivity.kt:50: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuQuestionActivity.kt:50: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuUserActivity.kt:51: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                             ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\admin\MenuUserActivity.kt:51: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtUserName!!.text = "Xin chào $user_name"
+                              ~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:80: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        textViewCategory.setText("Chủ đề: " + categoryName);
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:80: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        textViewCategory.setText("Chủ đề: " + categoryName);
+                                 ~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:129: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            textViewScore.setText("Điểm: " + Score);
+                                  ~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:161: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            btnConfirmNext.setText("Câu tiếp theo");
+                                   ~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:163: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            btnConfirmNext.setText("Hoàn thành");
+                                   ~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:188: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            textViewQuestionCount.setText("Câu hỏi: " + questionCounter + "/" + questionSize);
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:192: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            btnConfirmNext.setText("Xác nhận");
+                                   ~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:308: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        txtTotalScore.setText("Điểm cao " + Score);
+                              ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\java\com\cstrien\thi_trac_nghiem\user\QuestionActivity.java:308: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+        txtTotalScore.setText("Điểm cao " + Score);
+                              ~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:13: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:25: Warning: Hardcoded string "THÊM CHỦ ĐỀ", should use @string resource [HardcodedText]
+        android:text="THÊM CHỦ ĐỀ"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:39: Warning: Hardcoded string "Nhập tên chủ đề", should use @string resource [HardcodedText]
+        android:hint="Nhập tên chủ đề"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:68: Warning: Hardcoded string "Tạo mới", should use @string resource [HardcodedText]
+        android:text="Tạo mới"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:91: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:13: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:25: Warning: Hardcoded string "THÊM CÂU HỎI", should use @string resource [HardcodedText]
+        android:text="THÊM CÂU HỎI"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:46: Warning: Hardcoded string "Nhập câu hỏi", should use @string resource [HardcodedText]
+        android:hint="Nhập câu hỏi"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:56: Warning: Hardcoded string "Đáp án A", should use @string resource [HardcodedText]
+        android:hint="Đáp án A"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:66: Warning: Hardcoded string "Đáp án B", should use @string resource [HardcodedText]
+        android:hint="Đáp án B"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:77: Warning: Hardcoded string "Đáp án C", should use @string resource [HardcodedText]
+        android:hint="Đáp án C"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:88: Warning: Hardcoded string "Đáp án D", should use @string resource [HardcodedText]
+        android:hint="Đáp án D"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:98: Warning: Hardcoded string "Đáp án đúng", should use @string resource [HardcodedText]
+        android:hint="Đáp án đúng"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:120: Warning: Hardcoded string "Chọn chủ đề:", should use @string resource [HardcodedText]
+        android:text="Chọn chủ đề:"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:141: Warning: Hardcoded string "Tạo mới", should use @string resource [HardcodedText]
+        android:text="Tạo mới"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:164: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:24: Warning: Hardcoded string "Tạo mới", should use @string resource [HardcodedText]
+        android:text="Tạo mới"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:45: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:57: Warning: Hardcoded string "Phân quyền:", should use @string resource [HardcodedText]
+        android:text="Phân quyền:"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:70: Warning: Hardcoded string "Nhập mật khẩu", should use @string resource [HardcodedText]
+        android:hint="Nhập mật khẩu"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:80: Warning: Hardcoded string "Nhập tài khoản", should use @string resource [HardcodedText]
+        android:hint="Nhập tài khoản"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:97: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:109: Warning: Hardcoded string "TẠO TÀI KHOẢN", should use @string resource [HardcodedText]
+        android:text="TẠO TÀI KHOẢN"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:129: Warning: Hardcoded string "Người dùng", should use @string resource [HardcodedText]
+            android:text="Người dùng"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:135: Warning: Hardcoded string "Admin", should use @string resource [HardcodedText]
+            android:text="Admin"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:18: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:31: Warning: Hardcoded string "TRANG QUẢN LÝ ADMIN", should use @string resource [HardcodedText]
+        android:text="TRANG QUẢN LÝ ADMIN"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:69: Warning: Hardcoded string "Câu hỏi", should use @string resource [HardcodedText]
+        android:text="Câu hỏi"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:82: Warning: Hardcoded string "Tài khoản", should use @string resource [HardcodedText]
+        android:text="Tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:98: Warning: Hardcoded string "Chủ đề", should use @string resource [HardcodedText]
+        android:text="Chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:111: Warning: Hardcoded string "Đổi mật khẩu", should use @string resource [HardcodedText]
+        android:text="Đổi mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:14: Warning: Hardcoded string "ĐỔI MẬT KHẨU", should use @string resource [HardcodedText]
+        android:text="ĐỔI MẬT KHẨU"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:27: Warning: Hardcoded string "Tài khoản", should use @string resource [HardcodedText]
+        android:hint="Tài khoản"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:37: Warning: Hardcoded string "Mật khẩu cũ", should use @string resource [HardcodedText]
+        android:hint="Mật khẩu cũ"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:49: Warning: Hardcoded string "Nhập lại mật khẩu mới", should use @string resource [HardcodedText]
+        android:hint="Nhập lại mật khẩu mới"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:61: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:73: Warning: Hardcoded string "Mật khẩu mới", should use @string resource [HardcodedText]
+        android:hint="Mật khẩu mới"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:86: Warning: Hardcoded string "Đổi mật khẩu", should use @string resource [HardcodedText]
+        android:text="Đổi mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:13: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:25: Warning: Hardcoded string "CẬP NHẬT CHỦ ĐỀ", should use @string resource [HardcodedText]
+        android:text="CẬP NHẬT CHỦ ĐỀ"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:39: Warning: Hardcoded string "Nhập tên chủ đề", should use @string resource [HardcodedText]
+        android:hint="Nhập tên chủ đề"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:67: Warning: Hardcoded string "Cập nhật", should use @string resource [HardcodedText]
+        android:text="Cập nhật"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:89: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:13: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:25: Warning: Hardcoded string "CẬP NHẬT CÂU HỎI", should use @string resource [HardcodedText]
+        android:text="CẬP NHẬT CÂU HỎI"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:48: Warning: Hardcoded string "Nhập câu hỏi", should use @string resource [HardcodedText]
+        android:hint="Nhập câu hỏi"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:58: Warning: Hardcoded string "Đáp án A", should use @string resource [HardcodedText]
+        android:hint="Đáp án A"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:68: Warning: Hardcoded string "Đáp án B", should use @string resource [HardcodedText]
+        android:hint="Đáp án B"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:79: Warning: Hardcoded string "Đáp án C", should use @string resource [HardcodedText]
+        android:hint="Đáp án C"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:90: Warning: Hardcoded string "Đáp án D", should use @string resource [HardcodedText]
+        android:hint="Đáp án D"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:100: Warning: Hardcoded string "Đáp án đúng", should use @string resource [HardcodedText]
+        android:hint="Đáp án đúng"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:122: Warning: Hardcoded string "Chọn chủ đề:", should use @string resource [HardcodedText]
+        android:text="Chọn chủ đề:"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:143: Warning: Hardcoded string "Chỉnh sửa", should use @string resource [HardcodedText]
+        android:text="Chỉnh sửa"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:166: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:33: Warning: Hardcoded string "Cập nhật", should use @string resource [HardcodedText]
+        android:text="Cập nhật"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:54: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:66: Warning: Hardcoded string "Phân quyền:", should use @string resource [HardcodedText]
+        android:text="Phân quyền:"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:78: Warning: Hardcoded string "Nhập mật khẩu", should use @string resource [HardcodedText]
+        android:hint="Nhập mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:90: Warning: Hardcoded string "Nhập tài khoản", should use @string resource [HardcodedText]
+        android:hint="Nhập tài khoản"></EditText>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:98: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:110: Warning: Hardcoded string "CẬP NHẬT TÀI KHOẢN", should use @string resource [HardcodedText]
+        android:text="CẬP NHẬT TÀI KHOẢN"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:130: Warning: Hardcoded string "Người dùng", should use @string resource [HardcodedText]
+            android:text="Người dùng"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:136: Warning: Hardcoded string "Admin", should use @string resource [HardcodedText]
+            android:text="Admin"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:15: Warning: Hardcoded string "LỊCH SỬ NGƯỜI CHƠI", should use @string resource [HardcodedText]
+        android:text="LỊCH SỬ NGƯỜI CHƠI"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:45: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:66: Warning: Hardcoded string "Chọn chủ đề:", should use @string resource [HardcodedText]
+        android:text="Chọn chủ đề:"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:77: Warning: Hardcoded string "Điểm", should use @string resource [HardcodedText]
+        android:text="Điểm"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:87: Warning: Hardcoded string "Ngày chơi", should use @string resource [HardcodedText]
+        android:text="Ngày chơi"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:100: Warning: Hardcoded string "Điểm", should use @string resource [HardcodedText]
+        android:text="Điểm"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:112: Warning: Hardcoded string "Chủ đề", should use @string resource [HardcodedText]
+        android:text="Chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:125: Warning: Hardcoded string "Thứ tự", should use @string resource [HardcodedText]
+        android:text="Thứ tự"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:37: Warning: Hardcoded string "Sẽ có một câu hỏi và 4 câu trả lời ", should use @string resource [HardcodedText]
+        android:text="Sẽ có một câu hỏi và 4 câu trả lời "
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:50: Warning: Hardcoded string "Việc của bạn là lựa chọn một trong 1 câu trả lời đó trước khi hết thời gian ", should use @string resource [HardcodedText]
+        android:text="Việc của bạn là lựa chọn một trong 1 câu trả lời đó trước khi hết thời gian "
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:63: Warning: Hardcoded string "Trả lời đúng sẽ cộng 10 điểm sai sẽ không bị trừ điểm ", should use @string resource [HardcodedText]
+        android:text="Trả lời đúng sẽ cộng 10 điểm sai sẽ không bị trừ điểm "
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:77: Warning: Hardcoded string "Chúc may mắn", should use @string resource [HardcodedText]
+        android:text="Chúc may mắn"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:15: Warning: Hardcoded string "ĐĂNG NHẬP", should use @string resource [HardcodedText]
+        android:text="ĐĂNG NHẬP"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:27: Warning: Hardcoded string "Tài khoản", should use @string resource [HardcodedText]
+        android:hint="Tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:39: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+        android:hint="Mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:51: Warning: Hardcoded string "Đăng nhập", should use @string resource [HardcodedText]
+        android:text="Đăng nhập"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:62: Warning: Hardcoded string "Bạn chưa có tài khoản?", should use @string resource [HardcodedText]
+        android:text="Bạn chưa có tài khoản?"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_login.xml:74: Warning: Hardcoded string "Đăng ký", should use @string resource [HardcodedText]
+        android:text="Đăng ký"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:27: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:37: Warning: Hardcoded string "Lựa chọn chủ đề", should use @string resource [HardcodedText]
+        android:text="Lựa chọn chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:74: Warning: Hardcoded string "Bắt đầu", should use @string resource [HardcodedText]
+        android:text="Bắt đầu"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:99: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại">
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:14: Warning: Hardcoded string "Nhập id hoặc tên chủ đề", should use @string resource [HardcodedText]
+        android:hint="Nhập id hoặc tên chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:35: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:57: Warning: Hardcoded string "QUẢN LÝ CHỦ ĐỀ", should use @string resource [HardcodedText]
+        android:text="QUẢN LÝ CHỦ ĐỀ"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:81: Warning: Hardcoded string "Thêm", should use @string resource [HardcodedText]
+        android:text="Thêm"></TextView>
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:99: Warning: Hardcoded string "Danh sách chủ đề", should use @string resource [HardcodedText]
+        android:text="Danh sách chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:111: Warning: Hardcoded string "Mã chủ đề", should use @string resource [HardcodedText]
+        android:text="Mã chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:123: Warning: Hardcoded string "Tên chủ đề", should use @string resource [HardcodedText]
+        android:text="Tên chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:13: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:24: Warning: Hardcoded string "Nhập câu hỏi muốn tìm", should use @string resource [HardcodedText]
+        android:hint="Nhập câu hỏi muốn tìm"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:57: Warning: Hardcoded string "QUẢN LÝ CÂU HỎI", should use @string resource [HardcodedText]
+        android:text="QUẢN LÝ CÂU HỎI"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:81: Warning: Hardcoded string "Thêm", should use @string resource [HardcodedText]
+        android:text="Thêm"></TextView>
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:99: Warning: Hardcoded string "Chọn chủ đề", should use @string resource [HardcodedText]
+        android:text="Chọn chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:111: Warning: Hardcoded string "Thứ tự", should use @string resource [HardcodedText]
+        android:text="Thứ tự"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:123: Warning: Hardcoded string "Chủ đề", should use @string resource [HardcodedText]
+        android:text="Chủ đề"
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:143: Warning: Hardcoded string "Câu hỏi", should use @string resource [HardcodedText]
+        android:text="Câu hỏi"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:14: Warning: Hardcoded string "Nhập id hoặc tên tài khoản", should use @string resource [HardcodedText]
+        android:hint="Nhập id hoặc tên tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:35: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:57: Warning: Hardcoded string "QUẢN LÝ TÀI KHOẢN", should use @string resource [HardcodedText]
+        android:text="QUẢN LÝ TÀI KHOẢN"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:81: Warning: Hardcoded string "Thêm", should use @string resource [HardcodedText]
+        android:text="Thêm"></TextView>
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:99: Warning: Hardcoded string "Danh sách tài khoản", should use @string resource [HardcodedText]
+        android:text="Danh sách tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:111: Warning: Hardcoded string "Tên tài khoản", should use @string resource [HardcodedText]
+        android:text="Tên tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:123: Warning: Hardcoded string "Phân quyền", should use @string resource [HardcodedText]
+        android:text="Phân quyền"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:135: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+        android:text="Mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:36: Warning: Hardcoded string "Điểm: 0", should use @string resource [HardcodedText]
+        android:text="Điểm: 0"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:46: Warning: Hardcoded string "Câu hỏi: 1/a", should use @string resource [HardcodedText]
+        android:text="Câu hỏi: 1/a"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:56: Warning: Hardcoded string "Chủ đề: a", should use @string resource [HardcodedText]
+        android:text="Chủ đề: a"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:67: Warning: Hardcoded string "00 : 30", should use @string resource [HardcodedText]
+        android:text="00 : 30"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:80: Warning: Hardcoded string "câu hỏi?", should use @string resource [HardcodedText]
+        android:text="câu hỏi?"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:97: Warning: Hardcoded string "Lựa chọn 1", should use @string resource [HardcodedText]
+            android:text="Lựa chọn 1"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:103: Warning: Hardcoded string "Lựa chọn 2", should use @string resource [HardcodedText]
+            android:text="Lựa chọn 2"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:109: Warning: Hardcoded string "Lựa chọn 3", should use @string resource [HardcodedText]
+            android:text="Lựa chọn 3"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:115: Warning: Hardcoded string "Lựa chọn 4", should use @string resource [HardcodedText]
+            android:text="Lựa chọn 4"></RadioButton>
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:131: Warning: Hardcoded string "Xác nhận", should use @string resource [HardcodedText]
+        android:text="Xác nhận"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:145: Warning: Hardcoded string "Quay lại", should use @string resource [HardcodedText]
+        android:text="Quay lại"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:14: Warning: Hardcoded string "ĐĂNG KÝ", should use @string resource [HardcodedText]
+        android:text="ĐĂNG KÝ"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:26: Warning: Hardcoded string "Tài khoản", should use @string resource [HardcodedText]
+        android:hint="Tài khoản"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:38: Warning: Hardcoded string "Mật khẩu", should use @string resource [HardcodedText]
+        android:hint="Mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:49: Warning: Hardcoded string "Nhập lại mật khẩu", should use @string resource [HardcodedText]
+        android:hint="Nhập lại mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:61: Warning: Hardcoded string "Đã có tài khoản?", should use @string resource [HardcodedText]
+        android:text="Đã có tài khoản?"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:73: Warning: Hardcoded string "Đăng ký", should use @string resource [HardcodedText]
+        android:text="Đăng ký"
+        ~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:25: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name"
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:37: Warning: Hardcoded string "APP TRẮC NGHIỆM", should use @string resource [HardcodedText]
+        android:text="APP TRẮC NGHIỆM"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:83: Warning: Hardcoded string "Hướng dẫn", should use @string resource [HardcodedText]
+        android:text="Hướng dẫn"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:93: Warning: Hardcoded string "Đổi mật khẩu", should use @string resource [HardcodedText]
+        android:text="Đổi mật khẩu"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\category_view.xml:13: Warning: Hardcoded string "id", should use @string resource [HardcodedText]
+        android:text="id" />
+        ~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\category_view.xml:21: Warning: Hardcoded string "name", should use @string resource [HardcodedText]
+        android:text="name" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:14: Warning: Hardcoded string "Bạn có chắc chắn muốn xóa?", should use @string resource [HardcodedText]
+        android:text="Bạn có chắc chắn muốn xóa?"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:33: Warning: Hardcoded string "XÓA", should use @string resource [HardcodedText]
+            android:text="XÓA"
+            ~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:43: Warning: Hardcoded string "KHÔNG", should use @string resource [HardcodedText]
+            android:text="KHÔNG"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:14: Warning: Hardcoded string "Điểm cao", should use @string resource [HardcodedText]
+        android:text="Điểm cao"
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:33: Warning: Hardcoded string "CHƠI TIẾP", should use @string resource [HardcodedText]
+            android:text="CHƠI TIẾP"
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:44: Warning: Hardcoded string "THOÁT", should use @string resource [HardcodedText]
+            android:text="THOÁT"
+            ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:15: Warning: Hardcoded string "id", should use @string resource [HardcodedText]
+        android:text="id" />
+        ~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:23: Warning: Hardcoded string "name_question", should use @string resource [HardcodedText]
+        android:text="name_question" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:31: Warning: Hardcoded string "chude", should use @string resource [HardcodedText]
+        android:text="chude"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:16: Warning: Hardcoded string "username", should use @string resource [HardcodedText]
+        android:text="username" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:23: Warning: Hardcoded string "rank", should use @string resource [HardcodedText]
+        android:text="rank" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:32: Warning: Hardcoded string "M", should use @string resource [HardcodedText]
+        android:text="M" />
+        ~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:40: Warning: Hardcoded string "score", should use @string resource [HardcodedText]
+        android:text="score" />
+        ~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:48: Warning: Hardcoded string "chu de", should use @string resource [HardcodedText]
+        android:text="chu de"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:16: Warning: Hardcoded string "username", should use @string resource [HardcodedText]
+        android:text="username" />
+        ~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:25: Warning: Hardcoded string "M", should use @string resource [HardcodedText]
+        android:text="M" />
+        ~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:33: Warning: Hardcoded string "pass", should use @string resource [HardcodedText]
+        android:text="pass" />
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:41: Warning: Hardcoded string "roles", should use @string resource [HardcodedText]
+        android:text="roles"></TextView>
+        ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:15: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:25: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:15: Warning: When you define paddingLeft you should probably also define paddingRight for right-to-left symmetry [RtlSymmetry]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlSymmetry":
+   If you specify padding or margin on the left side of a layout, you should
+   probably also specify padding on the right side (and vice versa) for
+   right-to-left layout symmetry.
+
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:11: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:46: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:48: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:56: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="70dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="70dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:65: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:77: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:79: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:87: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_category.xml:89: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:11: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:34: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:36: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:85: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="52dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="52dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:107: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="160dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="160dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:117: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="70dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="70dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:129: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="80dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="80dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:138: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="130dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="130dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:150: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:152: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:160: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_question.xml:162: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:12: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:21: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="110dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="110dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:33: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="240dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="240dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:42: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="290dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="290dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:54: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:86: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:88: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:95: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:119: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_add_user.xml:122: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="34dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="34dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:17: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:42: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:54: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:65: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:79: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:94: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_admin.xml:108: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_change_pass.xml:60: Warning: Use "end" instead of "right" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+        android:gravity="right"
+                         ~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:12: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:46: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:47: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:56: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="70dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="70dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:64: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:76: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:78: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:86: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_category.xml:90: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:11: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:34: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:37: Warning: Redundant attribute layout_marginRight; already defining layout_marginEnd with targetSdkVersion 34 [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:87: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="52dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="52dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:109: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="160dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="160dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:119: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="70dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="70dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:131: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="80dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="80dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:140: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="130dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="130dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:152: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:154: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:162: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_question.xml:164: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:11: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:21: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:30: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="110dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="110dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:42: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="240dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="240dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:51: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="290dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="290dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:63: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:96: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:120: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_edit_user.xml:123: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="34dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="34dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:24: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:33: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:43: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:64: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:74: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="190dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="190dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:84: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="280dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="280dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:97: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="190dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="190dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:109: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="90dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="90dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:122: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_history.xml:134: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_instruct.xml:23: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:14: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:25: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:61: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:72: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="75dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="75dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:85: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="280dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="280dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_main.xml:98: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="290dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="290dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:15: Warning: Consider replacing android:paddingLeft with android:paddingStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:24: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:26: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="15dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="15dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:33: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:44: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:46: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:68: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:70: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:78: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:80: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:108: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_category.xml:120: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="200dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="200dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:11: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:25: Warning: Consider replacing android:paddingLeft with android:paddingStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:34: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:36: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="15dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="15dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:44: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:46: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:68: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:70: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:78: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:80: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:96: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:108: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:120: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="330dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="330dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:132: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="120dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="120dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_question.xml:140: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="140dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="140dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:15: Warning: Consider replacing android:paddingLeft with android:paddingStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:paddingLeft="20dp">
+        ~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:24: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:26: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="15dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="15dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:33: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:44: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:46: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="58dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="58dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:68: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:70: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:78: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:80: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:108: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:120: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="270dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="270dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_menu_user.xml:132: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="140dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="140dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:15: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:24: Warning: Consider replacing android:layout_alignParentLeft with android:layout_alignParentStart="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentLeft="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:25: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="100dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="100dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:33: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:44: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:54: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:65: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:90: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:125: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="40dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="40dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_question.xml:139: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="210dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="210dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_signup.xml:60: Warning: Use "end" instead of "right" to ensure correct behavior in right-to-left locales [RtlHardcoded]
+        android:gravity="right"
+                         ~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:12: Warning: Consider replacing android:layout_alignParentRight with android:layout_alignParentEnd="true" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_alignParentRight="true"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:14: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="8dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginRight="8dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:23: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:49: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="100dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="100dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:72: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="240dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="240dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:82: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="93dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="93dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\activity_user.xml:92: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="220dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="220dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\category_view.xml:11: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="50dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="50dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\category_view.xml:19: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="180dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="180dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:31: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginRight="20dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_delete.xml:41: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginLeft="20dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:31: Warning: Consider replacing android:layout_marginRight with android:layout_marginEnd="20dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginRight="20dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\dialog_score.xml:41: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+            android:layout_marginLeft="20dp"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:13: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="40dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="40dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:21: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="90dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="90dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\question_view.xml:29: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="330dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="330dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:14: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="115dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="115dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:21: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="20dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="20dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:29: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="70dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="70dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:38: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="230dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="230dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\rank_view.xml:46: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="300dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="300dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:14: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="60dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="60dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:22: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="10dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="10dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:31: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="180dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="180dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res\layout\user_view.xml:39: Warning: Consider replacing android:layout_marginLeft with android:layout_marginStart="300dp" to better support right-to-left layouts [RtlHardcoded]
+        android:layout_marginLeft="300dp"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RtlHardcoded":
+   Using Gravity#LEFT and Gravity#RIGHT can lead to problems when a layout is
+   rendered in locales where text flows from right to left. Use Gravity#START
+   and Gravity#END instead. Similarly, in XML gravity and layout_gravity
+   attributes, use start rather than left.
+
+   For XML attributes such as paddingLeft and layout_marginLeft, use
+   paddingStart and layout_marginStart. NOTE: If your minSdkVersion is less
+   than 17, you should add both the older left/right attributes as well as the
+   new start/end attributes. On older platforms, where RTL is not supported
+   and the start/end attributes are unknown and therefore ignored, you need
+   the older left/right attributes. There is a separate lint check which
+   catches that type of error.
+
+   (Note: For Gravity#LEFT and Gravity#START, you can use these constants even
+   when targeting older platforms, because the start bitmask is a superset of
+   the left bitmask. Therefore, you can use gravity="start" rather than
+   gravity="left|start".)
+
+0 errors, 592 warnings

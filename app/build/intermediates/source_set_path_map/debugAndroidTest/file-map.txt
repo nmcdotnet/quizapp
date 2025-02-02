@@ -1,0 +1,6 @@
+com.cstrien.thi_trac_nghiem.test.app-annotation-experimental-1.3.0-0 C:\Users\nmc\.gradle\caches\8.11.1\transforms\6bbcda4219c16a7ee5c0c5f83487788e\transformed\annotation-experimental-1.3.0\res
+com.cstrien.thi_trac_nghiem.test.app-core-1.5.0-1 C:\Users\nmc\.gradle\caches\8.11.1\transforms\a5e266e070e5170ce79a87cdcb5480a0\transformed\core-1.5.0\res
+com.cstrien.thi_trac_nghiem.test.app-androidTest-2 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\generated\res\resValues\androidTest\debug
+com.cstrien.thi_trac_nghiem.test.app-mergeDebugAndroidTestResources-3 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.cstrien.thi_trac_nghiem.test.app-mergeDebugAndroidTestResources-4 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.cstrien.thi_trac_nghiem.test.app-merged_res-5 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\merged_res\debugAndroidTest

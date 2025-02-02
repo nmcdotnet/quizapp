@@ -1,0 +1,240 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cstrien.thi_trac_nghiem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.cstrien.thi_trac_nghiem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.cstrien.thi_trac_nghiem.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:5:5-80:19
+18        android:allowBackup="true"
+18-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:7:9-65
+21        android:extractNativeLibs="false"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:8:9-54
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:9:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:10:9-41
+25        android:roundIcon="@mipmap/ic_launcher"
+25-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:11:9-48
+26        android:supportsRtl="true"
+26-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.Thi_Trac_Nghiem" >
+27-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:13:9-53
+28        <activity
+28-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:15:9-17:40
+29            android:name="com.cstrien.thi_trac_nghiem.user.InstructActivity"
+29-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:16:13-50
+30            android:exported="false" />
+30-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:17:13-37
+31        <activity
+31-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:18:9-20:39
+32            android:name="com.cstrien.thi_trac_nghiem.admin.AdminActivity"
+32-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:19:13-48
+33            android:exported="true" />
+33-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:20:13-36
+34        <activity
+34-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:21:9-23:39
+35            android:name="com.cstrien.thi_trac_nghiem.admin.MenuQuestionActivity"
+35-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:22:13-55
+36            android:exported="true" />
+36-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:23:13-36
+37        <activity
+37-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:24:9-26:39
+38            android:name="com.cstrien.thi_trac_nghiem.admin.MenuCategoryActivity"
+38-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:25:13-55
+39            android:exported="true" />
+39-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:26:13-36
+40        <activity
+40-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:27:9-29:39
+41            android:name="com.cstrien.thi_trac_nghiem.admin.AddCategoryActivity"
+41-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:28:13-54
+42            android:exported="true" />
+42-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:29:13-36
+43        <activity
+43-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:30:9-32:39
+44            android:name="com.cstrien.thi_trac_nghiem.admin.AddUserActivity"
+44-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:31:13-50
+45            android:exported="true" />
+45-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:32:13-36
+46        <activity
+46-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:33:9-35:39
+47            android:name="com.cstrien.thi_trac_nghiem.admin.AddQuestionActivity"
+47-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:34:13-54
+48            android:exported="true" />
+48-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:35:13-36
+49        <activity
+49-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:36:9-39:52
+50            android:name="com.cstrien.thi_trac_nghiem.admin.EditCategoryActivity"
+50-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:37:13-55
+51            android:exported="true"
+51-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:38:13-36
+52            android:screenOrientation="portrait" />
+52-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:39:13-49
+53        <activity
+53-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:40:9-43:52
+54            android:name="com.cstrien.thi_trac_nghiem.admin.EditUserActivity"
+54-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:41:13-51
+55            android:exported="true"
+55-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:42:13-36
+56            android:screenOrientation="portrait" />
+56-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:43:13-49
+57        <activity
+57-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:44:9-47:52
+58            android:name="com.cstrien.thi_trac_nghiem.admin.EditQuestionActivity"
+58-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:45:13-55
+59            android:exported="true"
+59-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:46:13-36
+60            android:screenOrientation="portrait" />
+60-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:47:13-49
+61        <activity
+61-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:48:9-51:52
+62            android:name="com.cstrien.thi_trac_nghiem.ChangePassActivity"
+62-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:49:13-47
+63            android:exported="true"
+63-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:50:13-36
+64            android:screenOrientation="portrait" />
+64-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:51:13-49
+65        <activity
+65-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:52:9-60:20
+66            android:name="com.cstrien.thi_trac_nghiem.LoginActivity"
+66-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:53:13-42
+67            android:exported="true" >
+67-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:54:13-36
+68            <intent-filter>
+68-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:55:13-59:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:56:17-69
+69-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:56:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:58:17-77
+71-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:58:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:61:9-64:52
+75            android:name="com.cstrien.thi_trac_nghiem.admin.MenuUserActivity"
+75-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:62:13-51
+76            android:exported="true"
+76-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:63:13-36
+77            android:screenOrientation="portrait" />
+77-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:64:13-49
+78        <activity
+78-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:65:9-67:39
+79            android:name="com.cstrien.thi_trac_nghiem.SignUpActivity"
+79-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:66:13-43
+80            android:exported="true" />
+80-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:67:13-36
+81        <activity
+81-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:68:9-71:52
+82            android:name="com.cstrien.thi_trac_nghiem.user.QuestionActivity"
+82-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:69:13-50
+83            android:exported="true"
+83-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:70:13-36
+84            android:screenOrientation="portrait" />
+84-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:71:13-49
+85        <activity
+85-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:72:9-75:52
+86            android:name="com.cstrien.thi_trac_nghiem.user.UserActivity"
+86-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:73:13-46
+87            android:exported="true"
+87-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:74:13-36
+88            android:screenOrientation="portrait" />
+88-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:75:13-49
+89        <activity
+89-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:76:9-79:52
+90            android:name="com.cstrien.thi_trac_nghiem.user.MainActivity"
+90-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:77:13-46
+91            android:exported="true"
+91-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:78:13-36
+92            android:screenOrientation="portrait" />
+92-->C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\AndroidManifest.xml:79:13-49
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.cstrien.thi_trac_nghiem.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nmc\.gradle\caches\8.11.1\transforms\24fc50798cb8acec44a647a85ceae7a3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nmc\.gradle\caches\8.11.1\transforms\24fc50798cb8acec44a647a85ceae7a3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\nmc\.gradle\caches\8.11.1\transforms\24fc50798cb8acec44a647a85ceae7a3\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <receiver
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+111            android:directBootAware="false"
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+112            android:enabled="true"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+113            android:exported="true"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+114            android:permission="android.permission.DUMP" >
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+122                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+125                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+126            </intent-filter>
+127        </receiver>
+128    </application>
+129
+130</manifest>

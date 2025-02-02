@@ -1,0 +1,454 @@
+[
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_clear.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/clear.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_add_question.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_edit_category.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_b1.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/b1.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/raw_sai.mp3.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/raw/sai.mp3"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_parchment.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/parchment.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_change_pass.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_change_pass.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/raw_nhacnen.mp3.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/raw/nhacnen.mp3"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_congratulations.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/congratulations.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_add_category.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_add_user.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_icon_3.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/icon_3.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_edit_question.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_play2.jpg.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/play2.jpg"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_category_view.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/category_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_spinner.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/spinner.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_confirm.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/confirm.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_rank3.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/rank3.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_rank.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/rank.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_app.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/app.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_history.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/history.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ic_menu_slideshow.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ic_menu_gallery.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ic_menu_gallery.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_rank_view.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/rank_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_one.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/one.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_exit.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/exit.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_sound.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/sound.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_clock.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/clock.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ready2.jpg.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ready2.jpg"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/raw_dung.mp3.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/raw/dung.mp3"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_btn_back.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/btn_back.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_delete.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/delete.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_dialog_score.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/dialog_score.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_admin.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_rotate.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/rotate.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_btn_vien.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/btn_vien.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_edt_vien.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/edt_vien.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_guide.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/guide.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_about.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/about.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_rank2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/rank2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_b3.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/b3.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_side_nav_bar.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_user.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/user.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_btn_login.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/btn_login.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_12.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_12.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_radius.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/radius.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_question_view.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/question_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_8.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_8.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_icon_2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/icon_2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_tracnghiem.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/tracnghiem.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_user_view.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/user_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_subject.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/subject.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_exit3.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/exit3.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_history.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ketqua.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ketqua.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_login.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_search.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/search.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_setbackgroupapp.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/setbackgroupapp.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_welcome.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/welcome.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_question.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ic_menu_camera.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ic_menu_camera.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_bounce.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/bounce.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_play.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/play.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_user.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_search2.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/search2.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_back.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/back.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_exam_clock.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_exam_clock.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_books.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/books.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_top1st.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/top1st.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_txt_question.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/txt_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_signup.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_add.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/add.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ready.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ready.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_icon_4.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/icon_4.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_guide2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/guide2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_team.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/team.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_edit_user.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_icon_1.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/icon_1.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_cauhoi.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/cauhoi.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_mute.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/mute.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_home.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/home.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_menu_question.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_play3.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/play3.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_edit.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/edit.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_menu_category.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_maloi.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/maloi.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_user.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_home2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/home2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_banner_11.jpg.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/banner_11.jpg"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_img_1.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/img_1.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_re.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/re.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_dialog_delete.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/dialog_delete.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_b2.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/b2.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/drawable_reset.png.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/drawable/reset.png"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_instruct.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_instruct.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-merged_res-34:/layout_activity_menu_user.xml.flat",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_user.xml"
+    }
+]

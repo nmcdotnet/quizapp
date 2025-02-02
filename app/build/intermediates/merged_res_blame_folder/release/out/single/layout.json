@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/dialog_score.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/dialog_score.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_menu_category.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_change_pass.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_change_pass.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_instruct.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_instruct.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_admin.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_admin.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_edit_question.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/question_view.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/question_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_menu_question.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_edit_user.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_edit_category.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_edit_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_user.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_question.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_login.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_add_category.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_category.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/rank_view.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/rank_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_history.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/category_view.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/category_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/dialog_delete.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/dialog_delete.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_menu_user.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_menu_user.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_add_question.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_question.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/user_view.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/user_view.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_signup.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_main.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cstrien.thi_trac_nghiem.app-mergeReleaseResources-33:/layout/activity_add_user.xml",
+        "source": "com.cstrien.thi_trac_nghiem.app-main-35:/layout/activity_add_user.xml"
+    }
+]

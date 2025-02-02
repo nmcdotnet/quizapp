@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app"
+    name=":app"
+    type="APP"
+    maven="Thi_Trac_Nghiem:app:"
+    agpVersion="8.2.0"
+    buildFolder="build"
+    bootClassPath="C:\Users\nmc\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\nmc\AppData\Local\Android\Sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

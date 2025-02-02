@@ -1,0 +1,3 @@
+com.cstrien.thi_trac_nghiem.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,37 @@
+com.cstrien.thi_trac_nghiem.app-core-runtime-2.2.0-0 C:\Users\nmc\.gradle\caches\8.11.1\transforms\1c5bc1b85ac4fb172b690eef5b8cae74\transformed\core-runtime-2.2.0\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-process-2.6.1-1 C:\Users\nmc\.gradle\caches\8.11.1\transforms\24fc50798cb8acec44a647a85ceae7a3\transformed\lifecycle-process-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-viewmodel-ktx-2.6.1-2 C:\Users\nmc\.gradle\caches\8.11.1\transforms\2edf0ffaefa45fa623bf78d6ec8f83a3\transformed\lifecycle-viewmodel-ktx-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-core-1.12.0-3 C:\Users\nmc\.gradle\caches\8.11.1\transforms\3c9bff5abdacb3198e97da04c0353400\transformed\core-1.12.0\res
+com.cstrien.thi_trac_nghiem.app-emoji2-1.2.0-4 C:\Users\nmc\.gradle\caches\8.11.1\transforms\44f4052082992f8b3992be331e09b580\transformed\emoji2-1.2.0\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-livedata-core-ktx-2.6.1-5 C:\Users\nmc\.gradle\caches\8.11.1\transforms\45b0af71dd662e9d25ce9546e4e442fc\transformed\lifecycle-livedata-core-ktx-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-livedata-2.6.1-6 C:\Users\nmc\.gradle\caches\8.11.1\transforms\519033231f31200dcad356c98888f37a\transformed\lifecycle-livedata-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-material-1.10.0-7 C:\Users\nmc\.gradle\caches\8.11.1\transforms\571b7d5ddb152e1e40779597dcf4db23\transformed\material-1.10.0\res
+com.cstrien.thi_trac_nghiem.app-recyclerview-1.1.0-8 C:\Users\nmc\.gradle\caches\8.11.1\transforms\5b5171126686f4e1023125b4fc91d0b7\transformed\recyclerview-1.1.0\res
+com.cstrien.thi_trac_nghiem.app-core-ktx-1.12.0-9 C:\Users\nmc\.gradle\caches\8.11.1\transforms\5ba24fbf1b8f0b1a6684c846856eeb6c\transformed\core-ktx-1.12.0\res
+com.cstrien.thi_trac_nghiem.app-profileinstaller-1.3.0-10 C:\Users\nmc\.gradle\caches\8.11.1\transforms\620ad19deebe02af857f2b49a06675e0\transformed\profileinstaller-1.3.0\res
+com.cstrien.thi_trac_nghiem.app-appcompat-1.6.1-11 C:\Users\nmc\.gradle\caches\8.11.1\transforms\6213c4560682ce1ef0c712db55e0a920\transformed\appcompat-1.6.1\res
+com.cstrien.thi_trac_nghiem.app-annotation-experimental-1.3.0-12 C:\Users\nmc\.gradle\caches\8.11.1\transforms\6bbcda4219c16a7ee5c0c5f83487788e\transformed\annotation-experimental-1.3.0\res
+com.cstrien.thi_trac_nghiem.app-appcompat-resources-1.6.1-13 C:\Users\nmc\.gradle\caches\8.11.1\transforms\79141c53bc7702f303761aefe5877bd8\transformed\appcompat-resources-1.6.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-livedata-core-2.6.1-14 C:\Users\nmc\.gradle\caches\8.11.1\transforms\7ea366a8386be4eae52bf96cabf57969\transformed\lifecycle-livedata-core-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-viewmodel-2.6.1-15 C:\Users\nmc\.gradle\caches\8.11.1\transforms\81fa009adad7ec114e5b3ae7c1425234\transformed\lifecycle-viewmodel-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-viewmodel-savedstate-2.6.1-16 C:\Users\nmc\.gradle\caches\8.11.1\transforms\85d0a36f1699792ed39bdc377717a012\transformed\lifecycle-viewmodel-savedstate-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-constraintlayout-2.1.4-17 C:\Users\nmc\.gradle\caches\8.11.1\transforms\878e03fa4a04659aa89298c5835c632c\transformed\constraintlayout-2.1.4\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-livedata-ktx-2.6.1-18 C:\Users\nmc\.gradle\caches\8.11.1\transforms\89bb8ffd4a34e507953460f91d9e4608\transformed\lifecycle-livedata-ktx-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-startup-runtime-1.1.1-19 C:\Users\nmc\.gradle\caches\8.11.1\transforms\8b9f3984e3ee1f1b1b5f1125d4ece03c\transformed\startup-runtime-1.1.1\res
+com.cstrien.thi_trac_nghiem.app-transition-1.2.0-20 C:\Users\nmc\.gradle\caches\8.11.1\transforms\8bfd151d035633a5995d5e84d6732364\transformed\transition-1.2.0\res
+com.cstrien.thi_trac_nghiem.app-drawerlayout-1.1.1-21 C:\Users\nmc\.gradle\caches\8.11.1\transforms\8e3ea27e2805cf4c24290fcc9f764222\transformed\drawerlayout-1.1.1\res
+com.cstrien.thi_trac_nghiem.app-lifecycle-runtime-2.6.1-22 C:\Users\nmc\.gradle\caches\8.11.1\transforms\9209f957850def7c5694894eeea3b505\transformed\lifecycle-runtime-2.6.1\res
+com.cstrien.thi_trac_nghiem.app-viewpager2-1.0.0-23 C:\Users\nmc\.gradle\caches\8.11.1\transforms\96dd1e802f900bec518bc36d6ce3e235\transformed\viewpager2-1.0.0\res
+com.cstrien.thi_trac_nghiem.app-savedstate-1.2.1-24 C:\Users\nmc\.gradle\caches\8.11.1\transforms\a5087f40a89366e91049bc27e86c824d\transformed\savedstate-1.2.1\res
+com.cstrien.thi_trac_nghiem.app-activity-1.8.0-25 C:\Users\nmc\.gradle\caches\8.11.1\transforms\bb72abacf0d3726d6a9863830ce28b5b\transformed\activity-1.8.0\res
+com.cstrien.thi_trac_nghiem.app-emoji2-views-helper-1.2.0-26 C:\Users\nmc\.gradle\caches\8.11.1\transforms\c27d1a16c5ab1636d975189824f30727\transformed\emoji2-views-helper-1.2.0\res
+com.cstrien.thi_trac_nghiem.app-fragment-1.3.6-27 C:\Users\nmc\.gradle\caches\8.11.1\transforms\c9b63fe280c2687650d0209fb8b289b0\transformed\fragment-1.3.6\res
+com.cstrien.thi_trac_nghiem.app-cardview-1.0.0-28 C:\Users\nmc\.gradle\caches\8.11.1\transforms\d86d5384a0305713dc36b10d01fb8a1f\transformed\cardview-1.0.0\res
+com.cstrien.thi_trac_nghiem.app-coordinatorlayout-1.1.0-29 C:\Users\nmc\.gradle\caches\8.11.1\transforms\daae0ca90f6543bf8323f95e2e76bdc9\transformed\coordinatorlayout-1.1.0\res
+com.cstrien.thi_trac_nghiem.app-pngs-30 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\generated\res\pngs\release
+com.cstrien.thi_trac_nghiem.app-resValues-31 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\generated\res\resValues\release
+com.cstrien.thi_trac_nghiem.app-packageReleaseResources-32 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.cstrien.thi_trac_nghiem.app-packageReleaseResources-33 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.cstrien.thi_trac_nghiem.app-merged_res-34 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\build\intermediates\merged_res\release
+com.cstrien.thi_trac_nghiem.app-main-35 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\main\res
+com.cstrien.thi_trac_nghiem.app-release-36 C:\Users\nmc\Documents\Zalo Received Files\Thi_Trac_Nghiem1212025\Thi_Trac_Nghiem1212025\app\src\release\res
